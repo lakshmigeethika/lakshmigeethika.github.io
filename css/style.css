@@ -341,10 +341,10 @@ hr {
 	width: 70px;
 	height: 70px;
 	margin-left: 0;
-	border: 1px solid #eee;
+	
 	border-radius: 100%;
 	text-align: center;
-	background: #fff;
+    background: #f6f6f6;
 }
 .timeline>li .timeline-image h4 {
 	margin-top: 20px;
@@ -422,29 +422,37 @@ hr {
 #education .timeline .timeline-body>p, .timeline .timeline-body>ul {
 	margin-bottom: 0;
     font-size:17px;
+
 }
 
+#education .timeline>li .timeline-image {
+	
+	background: #ce8558;
+}
 
 
 /*Projects section*/
-.img-circle{
-width:150px;
-height:150px;
-border-radius:50%;
-border-style:solid;
-border-width:3px;
-border-color:#ce8558;
-}
+
 
 #projects{
     
 	padding: 100px 0;
 	background: white;
 }
+
+#projects .img-responsive{
+width:200px;
+height:200px;
+border-radius:50%;
+border-style:solid;
+border-width:3px;
+border-color:#ce8558
+    
+}
 #projects hr{
     background: #ce8558;
-
 }
+
 #projects h3{
 /*	font-size: 100px;*/
     color: #ce8558;

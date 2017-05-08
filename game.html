@@ -1,3 +1,4 @@
+
 <html>
 
 <head>
@@ -24,7 +25,6 @@
           
             padding-bottom: 20px;
         }
-
         div {
 /*            position: relative;*/
             height: 500px;
@@ -38,7 +38,6 @@
             border:30px; 
         }
 */
-
         #rightSide {
             border-left: 3px solid yellow;
             left: 320px;
@@ -75,9 +74,7 @@
 //         var theLeftSide=document.getElementById("leftSide");
         function generateFaces() {
           theLeftSide = document.getElementById("leftSide");
-
             var i = 0;
-
             while (i < numberOfFaces) {
                 var top_position = Math.floor(Math.random() * 400);
                 var left_position = Math.floor(Math.random() * 400);
@@ -88,18 +85,12 @@
                 this_img.style.left = left_position;
                 theLeftSide.appendChild(this_img);
                 i++;
-
             }
-
             var leftSideImages = theLeftSide.cloneNode(true);
             theRightSide = document.getElementById("rightSide");
             console.log(theRightSide);
             leftSideImages.removeChild(leftSideImages.lastChild);
             theRightSide.appendChild(leftSideImages);
-
-
-
-
             var theBody = document.getElementsByTagName("body")[0];
             theLeftSide.lastChild.onclick = function nextlevel(event) {
                 event.stopPropagation();
