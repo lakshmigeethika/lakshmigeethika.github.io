@@ -227,12 +227,17 @@ hr {
 	margin-bottom: 30px;
         font-size:20px;
     color:black;  
-/*    here*/
+
 }
 
 #about .about-text color {
     font-weight: 700;
     color:#ce8558;
+    }
+#about .resume{
+    color:#fff;
+    background:#ce8558 ;
+    border-color:#ce8558; 
     }
 
 /* Skills Section */
